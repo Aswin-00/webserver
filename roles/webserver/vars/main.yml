@@ -1,0 +1,5 @@
+---
+# vars file for webserver
+pack_1: httpd
+ser_1: httpd
+rule_1: http

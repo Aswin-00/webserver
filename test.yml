@@ -1,0 +1,11 @@
+---
+- name: run the role
+  hosts: all
+  vars:
+    message: " welocme this site is for testing"
+    namelist:
+      - aswin
+      - geo
+
+  roles:
+    - webserver

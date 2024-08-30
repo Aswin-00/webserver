@@ -1,0 +1,5 @@
+welcome to {{ansible_facts.fqdn}}
+{{message}}
+{% for i in namelist%}
+ 	{{i}}
+{% endfor %}
